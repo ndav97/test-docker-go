@@ -1,0 +1,9 @@
+version: '2.0'
+
+services: 
+    api:
+        image: watcher_fiber:latest
+        ports: 
+            - 3000:3000
+        volumes: 
+            - ./:/go/src/app
